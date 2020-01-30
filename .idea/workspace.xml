@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34702c24-7377-460c-9139-f30874813fb3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WO3qwKQr1ZLbydikedpUAmbbRc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../discounts-json-lambda" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.csv_splitter">
+    <configuration name="csv_splitter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="shopify_wordpress_posts_parser" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csv_splitter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="shopify_wordpress_posts_parser" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.csv_splitter" />
+      <item itemvalue="Python.main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.csv_splitter" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34702c24-7377-460c-9139-f30874813fb3" name="Default Changelist" comment="" />
+      <created>1579007007334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579007007334</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1378" y="377" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579021532201">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1378" y="377" key="#com.intellij.execution.impl.EditConfigurationsDialog/243.1440.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1579021532201" />
+    <state x="1698" y="478" width="424" height="484" key="FileChooserDialogImpl" timestamp="1580203686033">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1698" y="478" width="424" height="484" key="FileChooserDialogImpl/243.1440.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1580203686033" />
+    <state width="1257" height="406" key="GridCell.Tab.0.bottom" timestamp="1579086454685">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1257" height="406" key="GridCell.Tab.0.bottom/243.1440.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1579086454685" />
+    <state width="1257" height="406" key="GridCell.Tab.0.center" timestamp="1579086454685">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1257" height="406" key="GridCell.Tab.0.center/243.1440.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1579086454685" />
+    <state width="1257" height="406" key="GridCell.Tab.0.left" timestamp="1579086454685">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1257" height="406" key="GridCell.Tab.0.left/243.1440.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1579086454685" />
+    <state width="1257" height="406" key="GridCell.Tab.0.right" timestamp="1579086454685">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1257" height="406" key="GridCell.Tab.0.right/243.1440.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1579086454685" />
+    <state x="1571" y="547" key="com.intellij.ide.util.TipDialog" timestamp="1580203669021">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1571" y="547" key="com.intellij.ide.util.TipDialog/243.1440.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1580203669021" />
+    <state x="1573" y="337" width="683" height="764" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579021516418">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1573" y="337" width="683" height="764" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/243.1440.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1579021516418" />
+  </component>
+</project>
