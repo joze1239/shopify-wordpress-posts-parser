@@ -2,6 +2,8 @@ import json
 import csv
 import arrow
 import requests
+from bs4 import BeautifulSoup
+import re
 
 authors = {
     "Emily Bertha": "emilybertha",
@@ -18,25 +20,30 @@ with open('out.csv', mode='w') as csv_file:
     fieldnames = ['post_title', 'ID', 'post_content', 'post_excerpt', 'post_date', 'post_name', 'post_author',
                   'post_publisher',
                   'post_status', 'featured_image', 'post_format', 'comment_status', 'ping_status', 'post_category',
-                  'post_tag'
+                  'post_tag', 'seo_description'
                   ]
     writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
     writer.writeheader()
 
-    with open('articles_20200114.json') as json_file:
+    with open('blog_articles_30012019.json') as json_file:
         data = json.load(json_file)
         count = 0
         for a in data['articles']:
             count += 1
-            if count > 20:
-                continue
+            #if count > 20:
+            #    continue
 
             r = requests.get('http://eightsleep.com/blogs/news/' + a['handle'])
             print(r.status_code)
+            
             if r.status_code == 404:
                 print('404: Post: ' + str(a['id']), a['title'], a['handle'], date_str)
                 continue
-
+            
+            soup = BeautifulSoup(r.text, 'html.parser')
+            desc = soup.findAll(attrs={"name": re.compile(r"description", re.I)}) 
+            meta_description = desc[0]['content']
+            
             image_url = ''
             if 'image' in a:
                 image_url = a['image']['src']
@@ -63,5 +70,6 @@ with open('out.csv', mode='w') as csv_file:
                 'comment_status': 'open',
                 'ping_status': 'open',
                 'post_category': 'Uncategorized',
-                'post_tag': a['tags']
+                'post_tag': a['tags'],
+                'seo_description': meta_description
             })
